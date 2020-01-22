@@ -1,0 +1,6 @@
+
+  secret_key: '05352824b9642acc681d2cbe9afb036e'
+  sql_database: "sqlite:///site.db"
+  env: 'Development'
+  sqlalchemy_modification: False
+  
