@@ -5,7 +5,6 @@ from pick_up_app.forms import AdminRegistrationForm, LogInForm
 
 @app.route('/')
 def home():
-    
     return render_template('index.html', title='Home Page')
 
 @app.route('/register')
